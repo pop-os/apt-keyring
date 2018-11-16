@@ -1,0 +1,10 @@
+[package]
+name = "apt-keyring"
+version = "0.1.0"
+authors = ["Michael Aaron Murphy <mmstickman@gmail.com>"]
+description = "Load all available apt keyrings into an in-memory keyring"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+gpgrv = "0.1.1"
