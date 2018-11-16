@@ -43,3 +43,9 @@ impl Deref for AptKeyring {
         &self.0
     }
 }
+
+impl AsRef<Keyring> for AptKeyring {
+    fn as_ref(&self) -> &Keyring {
+        &self.0
+    }
+}
