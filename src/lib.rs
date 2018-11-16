@@ -1,6 +1,6 @@
 extern crate gpgrv;
 
-pub use gpgrv::Keyring;
+use gpgrv::Keyring;
 use std::io;
 use std::fs::{self, File};
 use std::ops::Deref;
