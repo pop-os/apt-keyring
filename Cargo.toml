@@ -7,4 +7,4 @@ license = "MIT"
 readme = "README.md"
 
 [dependencies]
-gpgrv = "0.1.1"
+gpgrv = "0.2"
